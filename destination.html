@@ -1,58 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      overflow-x: hidden;
+    }
+  </style>
 </head>
+
 <body>
-         <!-- navbar start here  -->
-      <div class="container-fluid px-0">
-        <div class="row">
-                <div class="col-12">
-                        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand fw-bold" href="#">ChaleChalo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Destination</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Packages</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Booking</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        
-      
-      </ul>
-      <a class="btn btn-warning me-2">Sign up</a>
-      <a  class="btn btn-warning">Login</a>
-    
+  <!-- navbar start here  -->
+  <div class="container-fluid px-0">
+    <div class="row">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">ChaleChalo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="destination.html">Destination</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="package.html">Packages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="booking.html">Booking</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+
+              </ul>
+              <a class="btn btn-warning me-2">Sign up</a>
+              <a class="btn btn-warning">Login</a>
+
+            </div>
+          </div>
+        </nav>
+      </div>
     </div>
   </div>
-</nav>
-                </div>
+
+  <!-- navbar end here  -->
+
+  <section class="py-5 text-center bg-light">
+
+    <div class="container">
+      <h1 class="fw-bold">Travel Destinations</h1>
+      <p class="lead">Explore amazing destinations with ChaloChale Travel app</p>
+    </div>
+
+  </section>
+
+  <!-- destination card start here -->
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card shadow">
+            <img src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=60"
+              class="card-img-top" height="220" alt="Goa">
+            <div class="card-body">
+              <h5 class="fw-bold">Goa</h5>
+              <p>Enjoy beaches and nightlife with affordable packages.</p>
+              <a href="booking.html" class="btn btn-primary w-100">Book Now</a>
+            </div>
+          </div>
         </div>
-      </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card shadow">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+            class="card-img-top" height="220" alt="Manali">
+            <div class="card-body">
+              <h5 class="fw-bold">Manali</h5>
+              <p>Adventure and snowfall experiences in Himachal Pradesh.</p>
+              <a href="booking.html" class="btn btn-primary w-100">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card shadow">
+            <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=60 = 8008q = 60"
+        class=" card-img-top" height="220" alt="Agra">
+            <div class="card-body">
+              <h5 class="fw-bold">Agra</h5>
+              <p>Visit Taj Mahal and explore the Mughal architecture.</p>
+              <a href="booking.html" class="btn btn-primary w-100">Book Now</a>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        </section>
 
-      <!-- navbar end here  -->
-    
+        <!-- destination card end here -->
 
+        <!-- footer start -->
+        <footer class="bg-dark text-light py-3 text-center mt-2">
+          <p class="mb-0"> © 2026 ChaloChale Travel App I Designed with Bootstrap</p>
+        </footer>
+        <!-- footer end  -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+          integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+          crossorigin="anonymous"></script>
 </body>
+
 </html>
